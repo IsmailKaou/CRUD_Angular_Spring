@@ -1,0 +1,40 @@
+POST http://localhost:8080/test_war_exploded/student/save
+Content-Type: application/json
+
+{
+  "name": "Ismail",
+  "gender": "Male",
+  "birthDate": "03/08/2001",
+  "mark": 15
+}
+
+###
+GET http://localhost:8080/test_war_exploded/student/getStudents/2
+Accept: application/json
+
+###
+
+
+
+
+
+###
+
+#Get Professor
+GET http://localhost:8080/test_war_exploded/professor/getProfessors
+Accept: application/json
+
+###
+
+
+
+# Add Professor
+POST http://localhost:8080/test_war_exploded/professor/save
+Content-Type: application/json
+
+{
+  "firstName" : "Mr",
+  "lastName" : "Atlas",
+  "email" : "atlas@example.com"
+}
+

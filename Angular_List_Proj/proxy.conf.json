@@ -1,0 +1,10 @@
+{
+  "/apis": {
+    "target": "http://localhost:8080/test_war_exploded/",
+    "secure": false,
+    "pathRewrite": {
+      "^/apis": ""
+    }
+  },
+  "logLevel": "debug"
+}
